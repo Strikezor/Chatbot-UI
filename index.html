@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="title">
+          <i class="fa-solid fa-user-graduate"></i>
+          <h1>Placement Chatbot</h1>
+        </div>
+        <button type="button" onclick="show_hide()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </header>
+
+      <div class="container chat-section">
+        <div class="faq-window">
+          <div class="faq-head">
+            <h3>Frequently Asked Questions</h3>
+          </div>
+          <div class="faq-questions">
+            <p>how to get placed?</p>
+            <p>how to create resume?</p>
+            <p>how to prepare for interview?</p>
+            <p>how to prepare for aptitude?</p>
+          </div>
+        </div>
+        <div class="chat-window">
+          <div class="chats">
+            <div class="user-join">
+              <p><b>Chat Buddy</b> joined the chat</p>
+            </div>
+            <div class="message common-msg">
+              <p>Hey there!</p>
+            </div>
+            <div class="reply common-msg">
+              <p>Hi, I am Chat Buddy. How can I help you?</p>
+            </div>
+            <div class="message common-msg">
+              <p>How can i get placed?</p>
+            </div>
+            <div class="reply common-msg">
+              <p>The placement process involves several stages. It typically begins with registration and profile creation. </p>
+            </div>
+            <div class="reply common-msg message-bottom">
+              <p>What else would you like to know?</p>
+            </div>
+
+          </div>
+          <div class="query-input">
+            <input type="text" placeholder="Type a message..." />
+            <button type="button">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3994cc8e67.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
